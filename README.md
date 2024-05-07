@@ -60,6 +60,7 @@ output sum,carry;
 endmodule
 
 **half_subractor**
+
 ```
 module halfsub_top(a,b,D,Bo);
 input a,b;
@@ -67,6 +68,7 @@ output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow
 assign D = a ^ b;
   assign Bo = ~a & b;
 endmodule
+
 ```
 
 Developed by: harish.e
