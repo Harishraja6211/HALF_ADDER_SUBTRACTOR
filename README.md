@@ -51,6 +51,7 @@ Figure -02 HALF Subtractor
 **Program:**
 
 **half_adder**
+```
 module halfadd_top(a,b,sum,carry);
 input a,b;
 output sum,carry; 
@@ -59,6 +60,7 @@ output sum,carry;
 endmodule
 
 **half_subractor**
+```
 module halfsub_top(a,b,D,Bo);
 input a,b;
 output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half subtractor
@@ -72,6 +74,8 @@ Register No;212223220031
 
 **RTL Schematic**
 
+
+![327345086-7fc87257-ed87-460c-b04c-0b71665c61b7](https://github.com/Harishraja6211/HALF_ADDER_SUBTRACTOR/assets/154001429/9900552d-4bc2-46d0-81ba-08da3c18d2df)
 
 
 **Output/TIMING Waveform**
