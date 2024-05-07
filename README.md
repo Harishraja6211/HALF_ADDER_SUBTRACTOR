@@ -67,6 +67,7 @@ output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow
 assign D = a ^ b;
   assign Bo = ~a & b;
 endmodule
+```
 
 Developed by: harish.e
 Register No;212223220031
